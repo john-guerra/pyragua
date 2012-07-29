@@ -1,0 +1,64 @@
+Pyragua 
+-------
+http://quimbaya.utp.edu.co/projects/pyragua
+
+
+Qué es Pyragua?
+---------------
+PYRAGUA es un entorno de desarrollo para la manipulación de código en lenguaje Python 
+diseñado por los integrantes del semillero de investigación de la Universidad Tecnológica de Pereira PYROX.
+
+Entre las principales caracterésticas actuales del Pyragua podemos destacar:
+
+    >> Coloreado de texto.
+    >> Comentado y descomentado de bloques de código.
+    >> Identado y desidentado de bloques de texto.
+    >> Detección y configuración de los fines de línea.
+    >> Autocompletado.
+    >> Pánel pyShell
+    >> La posibilidad de abrir varios archivos .py al mismo tiempo.
+    >> Ejecución de las aplicaciones que se realicen en él.
+
+Como obtener Pyragua
+--------------------
+Pyragua esta escrito en un lenguaje multiplataforma y el código para cualquier plataforma, se puede descargar desde la página del proyecto
+http://quimbaya.utp.edu.co/frs/?group_id=6
+
+Otros enlaces
+-------------
+Python www.python.org
+wxPython www.wxpython.org
+Universidad Tecnológica de Pereira www.utp.edu.co
+
+Instalación
+-----------
+Después de obtener Pyragua se descomprime
+    promt$ unzip pyragua_xxxx.zip
+    promt$ cd pyragua_xxxx
+puede ejecutarlo de inmediato bajo windows o linux
+    promt$ python pyragua.py
+También lo puede instalar en linux
+    promt# python setup.py install (como root)
+    promt$ pyragua.py
+
+Requerimientos
+--------------
+Para cualquier plataforma.
+ >> Python 2.1 (en adelante) http://www.python.org/download
+ >> wxpython 2.6 http://www.wxpython.org/download.php
+ 
+Licencia
+--------
+Estos programas son Software Libre; 
+se pueden redistribuir bajo los términos de la Licencia GNU GPL v2 como fue publicada por la Free Software Foundation.
+Estos programas son distribuidos con la esperanza de que sean útiles, pero SIN GARANTÍA ALGUNA; incluso sin la garantía 
+implí­cita de que servirán para un propósito especí­fico.
+Para más detalles, revisa la GNU GPL oficial en inglés http://www.gnu.org/licenses/gpl.txt
+
+Contáctenos
+-----------
+Pyrox, Grupo de desarrollo de python.
+Universidad Tecnológica de Pereira
+http://pyrox.utp.edu.co
+python@gda.utp.edu.co
+2007

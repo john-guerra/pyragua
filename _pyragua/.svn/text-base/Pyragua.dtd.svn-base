@@ -1,0 +1,11 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT Proyecto (persona)?>
+<!ELEMENT ProyectoPyragua (Archivos+, Parametros*, Librerias*,Includes*,Descripcion?)>
+<!ATTLIST nombre #REQUIRED>
+<!ELEMENT Archivos (Archivo+)>
+<!ATTLIST ruta #REQUIRED>
+<!ELEMENT Parametros (Parametro*) EMPTY>
+<!ATTLIST Parametro val #REQUIRED>
+<!ELEMENT Librerias EMPTY>
+<!ELEMENT Includes EMPTY>
+<!ELEMENT Descripcion (#PCDATA) EMPTY>

@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+
+import _pyragua.pyragua
+_pyragua.pyragua.main()

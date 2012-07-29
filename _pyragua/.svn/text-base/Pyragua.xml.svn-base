@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE listin SYSTEM "Pyragua.dtd">
+<Proyecto>
+  <ProyectoPyragua nombre='Pyragua'>
+    <Archivos principal='pyragua.py'>
+      <Archivo ruta='about.py'/>
+      <Archivo ruta='Archivo.py'/>
+      <Archivo ruta='ChangeBrowser.py'/>
+      <Archivo ruta='CodeBrowser.py'/>
+      <Archivo ruta='DialogoProyetos.py'/>
+      <Archivo ruta='PanelArchivos.py'/>
+      <Archivo ruta='PanelCodigo.py'/>
+      <Archivo ruta='PanelInferior.py'/>
+      <Archivo ruta='PanelProyecto.py'/>
+      <Archivo ruta='Proyecto.py'/>
+      <Archivo ruta='pyclbr.py'/>
+      <Archivo ruta='pyragua.py'/>
+      <Archivo ruta='PythonSTC.py'/>
+      <Archivo ruta='setup.py'/>
+      <Archivo ruta='Utils.py'/>
+    </Archivos>
+  </ProyectoPyragua>
+</Proyecto>

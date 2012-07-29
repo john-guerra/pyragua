@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1//EN" "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd">
+<article id="Manual" lang="es">
+	<articleinfo>
+   	<title>Manual de Pyragua</title>
+		<copyright>
+      	<year>2007</year>
+      	<holder>Semillero de Investigacion Pyrox - UTP</holder>
+      </copyright>
+      <authorgroup>
+      	<author>
+         	<surname>Aristizabal Romero</surname>
+         	<firstname>Daniel</firstname>
+         	<email>daristizabal@parquesoft.com</email>
+			</author>
+		</authorgroup>
+      <legalnotice><para>This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.</para>
+
+    <para>This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.</para>
+
+    <para>You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA</para></legalnotice>
+	</articleinfo>
+	<sect1 id="definicion">
+		<title>¿Qué es Pyragua?</title>
+		<para>PYRAGUA es un entorno de desarrollo para la manipulación de código en lenguaje Python 
+diseñado por los integrantes del semillero de investigación de la Universidad Tecnológica de Pereira PYROX.</para>
+		<para>Entre las principales caracterésticas actuales del Pyragua podemos destacar:</para>
+		<itemizedlist>
+			<listitem><para>Coloreado de texto.</para></listitem>
+			<listitem><para>Comentado y descomentado de bloques de código.</para></listitem>
+			<listitem><para>Identado y desidentado de bloques de texto.</para></listitem>
+			<listitem><para>Detección y configuración de los fines de línea.</para></listitem>
+			<listitem><para>Autocompletado.</para></listitem>
+			<listitem><para>Pánel pyShell</para></listitem>
+			<listitem><para>La posibilidad de abrir varios archivos .py al mismo tiempo.</para></listitem>
+			<listitem><para>Ejecución de las aplicaciones que se realicen en él.</para></listitem>
+		</itemizedlist>
+	</sect1>
+	<sect1 id="descarga">
+		<title>Como obtener Pyragua</title>
+		<para>Pyragua esta escrito en un lenguaje multiplataforma y el código para cualquier plataforma, se puede descargar desde la <ulink url="http://quimbaya.utp.edu.co/frs/?group_id=6">página</ulink>
+ del proyecto.</para>
+ 		<para><emphasis>http://quimbaya.utp.edu.co/frs/?group_id=6</emphasis></para>
+		<sect2 id="links">
+			<title>Otros enlaces</title>
+			<simplelist>
+				<member>Python <ulink url="http://www.python.org">www.python.org</ulink></member>
+				<member>wxPython <ulink url="http://www.wxpython.org">www.wxpython.org</ulink></member>
+				<member>Universidad Tecnológica de Pereira <ulink url="http://www.utp.edu.co">www.utp.edu.co</ulink></member>
+			</simplelist>
+		</sect2>
+	</sect1>
+	<sect1 id="instalacion">
+		<title>Instalación</title>
+		<para>Después de obtener Pyragua se descomprime</para>
+		<screen>
+			<userinput><prompt>prompt$</prompt> unzip pyragua_xxxx.zip</userinput>
+			<userinput><prompt>prompt$</prompt> cd pyragua_xxxx</userinput>
+		</screen>
+		<para>puede ejecutarlo de inmediato bajo windows o linux</para>
+		<screen>
+			<userinput><prompt>prompt$</prompt> python pyragua.py</userinput>
+		</screen>
+		<para>También lo puede instalar en linux</para>
+		<screen>
+			<userinput><prompt>prompt#</prompt> python setup.py install </userinput><emphasis>(como root)</emphasis>
+			<userinput><prompt>prompt$</prompt> pyragua.py</userinput>
+		</screen>     
+	</sect1>
+	<sect1 id="requerimientos">
+		<title>Requerimientos</title>
+		<para>Para cualquier plataforma.</para>
+		<itemizedlist>
+			<listitem><para>Python 2.1 (en adelante) <ulink url="http://www.python.org/download">http://www.python.org/download</ulink></para></listitem>
+			<listitem><para>wxpython 2.6 <ulink url="http://www.wxpython.org/download.php">http://www.wxpython.org/download.php</ulink></para></listitem>
+		</itemizedlist>
+	</sect1>
+	<sect1 id="licencia">
+		<title>Licencia</title>
+		<para>Estos programas son Software Libre; 
+se pueden redistribuir bajo los términos de la Licencia GNU GPL v2 como fue publicada por la Free Software Foundation.
+Estos programas son distribuidos con la esperanza de que sean útiles, pero SIN GARANTÍA ALGUNA; incluso sin la garantía 
+implí­cita de que servirán para un propósito especí­fico.
+Para más detalles, revisa la GNU GPL oficial en inglés <ulink url="http://www.gnu.org/licenses/gpl.txt">http://www.gnu.org/licenses/gpl.txt</ulink></para>
+	</sect1>
+	<sect1 id="contacto">
+		<title>Contáctenos</title>
+		<para>Pyrox, Grupo de desarrollo de python.
+Universidad Tecnológica de Pereira</para>
+<para><ulink url="http://pyrox.utp.edu.co">http://pyrox.utp.edu.co</ulink></para><para><ulink url="mailto://python@gda.utp.edu.co">python@gda.utp.edu.co</ulink></para>
+<para>2007</para>
+	</sect1>
+</article>

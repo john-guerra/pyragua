@@ -1,0 +1,22 @@
+La documentacion creada hasta el momento es el archivo manual.xml es un
+archivo docbook de tipo xml compilado a HTML y PDF usando XSLTPROC, el
+stylesheet es nwalsh, el comando de compilacion es:
+
+	xsltproc -o manual.html /usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl manual.xml
+
+28/ENE/2007
+Hoy cree la pagina man, despues de buscar y no encontrar algo concreto
+en pasar de Docbook xml a man entonces probe una solucion chapucera.
+Creo el archivo pyragua.1.txt es un archivo de texto plano.
+
+	asciidoc -b docbook -d manpage pyragua.1.txt
+Esto genera un XML y ahora lo pasamos a man
+	xmlto man pyragua.1.txt
+
+Despues el resultado es pyragua.1 el cual se puede leer con man asi:
+	
+	man -l pyragua.1
+
+__________________________
+Daniel Aristizabal Romero
+daristizabal@parquesoft.com
